@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Playfair+Display&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color:rgb(255,240,222);
+    padding: 0px  10vw;
+}
+
+.container {
+    display: grid; grid-template-columns: 1fr 2fr;
+}
