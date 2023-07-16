@@ -30,7 +30,8 @@ body {
 }
 
 .container {
-    display: grid; grid-template-columns: 1fr 2fr;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 .order-now-btn {

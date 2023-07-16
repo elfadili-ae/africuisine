@@ -26,16 +26,19 @@
             <div class="header-btn">MENU</div>
             <div class="header-btn">FOOD</div>
             <div class="header-btn">SERVICES</div>
-            <div class="header-btn">ABOUT US</div>
+            <div class="header-btn"><a href="#about-us-section">ABOUT US</a></div>
             <div>
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
         </div>
     </div>
+
+    <div style="position: absolute; top: 10vh;">
+        <img src="Assets/spoon.png" style="height: 520px;">
+    </div>
+
+        <!-- hero section -->
     <div class="container">
-        <div style="position: absolute;">
-            <img src="Assets/spoon.png" style="height: 500px;">
-        </div>
         <div style="
             background-color: rgb(60, 133, 0);
             font-family: Arial, Helvetica, sans-serif;
@@ -101,6 +104,7 @@
                     place-content: center;
                     align-items: center;
                     justify-items: center;
+                    border-left: 1px solid rgb(2, 2, 2, 0.2);
                     ">
                     <img src="Assets/user.png" style="width: 50px;">
                     <div>
@@ -108,7 +112,33 @@
                     </div>
             </div>
         </div>
-
+        </div>
+    </div>
+    
+    <!-- about us section -->
+    <div id="about-us-section" class="container">
+        <div style="position: relative;">
+            <div style="
+                padding: 30px 0px;
+                background-color: white;
+                background-size: cover;
+                /* background-image: url(Assets/about_bg1.png); */
+                ">
+                <img src="Assets/pngwing.com (29).png" style="width: 350px">
+                <img src="Assets/jollof-rice.png" style="width: 325px;">
+            </div>
+        </div>
+        
+        <div style="
+            padding: 30px 0px;
+            padding-left: 35px;
+            ">
+            <div style="color: brown; font-size: 22px;">--- About Us ---</div>
+            <div style="font-size: 90px;">Our mission is to bring true African flavours to you.</div>
+            <div style="font-size: 22px; padding-top: 10px; line-height: 40px;">We will continue to provide the experience of Ubuntu,
+                 <br/>the African philosophy of hospitality and interconnectedness, with<br/>our shopping and dining for our customers.
+            </div>
+        </div>
     </div>
 </body>
 </html>
